@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MCA Paper Wala - Himachal MCA University</title>
+<style>
+:root{
+  --navy: #0f1e3d;
+  --teal: #00c896;
+  --light-bg: #f0f9f7;
+  --white: #ffffff;
+}
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Segoe UI', Arial, sans-serif}
+body{background:var(--light-bg);color:var(--navy)}
+a{text-decoration:none}
+
+/* TOP BAR */
+.topbar{background:var(--navy);color:white;padding:10px 40px;font-size:13px;display:flex;justify-content:space-between;align-items:center}
+.topbar a{color:white;margin:0 8px}
+
+/* HEADER */
+.header{background:var(--white);padding:15px 40px;display:flex;justify-content:space-between;align-items:center;box-shadow:0 2px 10px rgba(0,0,0,0.05);position:sticky;top:0;z-index:100}
+.header h1{color:var(--teal);font-size:26px}
+.header h1 span{color:var(--navy)}
+.nav a{margin:0 15px;color:var(--navy);font-weight:600;transition:0.3s}
+.nav a:hover{color:var(--teal)}
+.btn-contact{background:var(--teal);color:white;padding:10px 20px;border-radius:8px;font-weight:bold;transition:0.3s}
+.btn-contact:hover{background:#00a87a}
+
+/* SLIDER */
+.slider{position:relative;width:100%;height:420px;overflow:hidden;background:#000}
+.slides{display:flex;width:400%;animation:slide 15s infinite}
+.slide{width:25%;position:relative}
+.slide img{width:100%;height:420px;object-fit:cover}
+.slide-text{position:absolute;bottom:40px;left:50px;color:white;background:rgba(15,30,61,0.8);padding:20px 30px;border-radius:10px;max-width:500px}
+.slide-text h2{color:var(--teal);font-size:28px;margin-bottom:5px}
+@keyframes slide{
+ 0%{margin-left:0} 20%{margin-left:0}
+ 25%{margin-left:-100%} 45%{margin-left:-100%}
+ 50%{margin-left:-200%} 70%{margin-left:-200%}
+ 75%{margin-left:-300%} 95%{margin-left:-300%}
+}
+
+/* SECTIONS */
+.section{padding:60px 40px}
+.section h2{text-align:center;color:var(--navy);margin-bottom:40px;font-size:34px}
+
+/* NOTIFICATIONS */
+.notice-grid{display:grid;grid-template-columns:2fr 1fr;gap:25px}
+.notice-box{background:white;padding:20px;border-radius:12px;box-shadow:0 3px 15px rgba(0,0,0,0.05);border-left:5px solid var(--teal);margin-bottom:20px;transition:0.3s}
+.notice-box:hover{transform:translateX(5px)}
+.notice-box span{color:var(--teal);font-weight:bold;font-size:14px}
+.notice-sidebar{background:white;padding:25px;border-radius:12px;box-shadow:0 3px 15px rgba(0,0,0,0.05)}
+.notice-sidebar h3{background:var(--teal);color:white;padding:12px;border-radius:8px;text-align:center;margin-bottom:20px}
+
+/* CARDS */
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:25px}
+.card{background:var(--white);padding:30px;border-radius:15px;text-align:center;box-shadow:0 5px 20px rgba(0,0,0,0.05);border-top:4px solid var(--teal);transition:0.3s}
+.card:hover{transform:translateY(-8px);box-shadow:0 8px 25px rgba(0,201,150,0.2)}
+.card h3{color:var(--navy);margin:15px 0 10px;font-size:20px}
+
+/* PROGRAMS */
+.program-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+.program-card{background:white;padding:25px;border-radius:12px;box-shadow:0 3px 15px rgba(0,0,0,0.05);border-left:4px solid var(--teal)}
+.program-card a{color:var(--teal);font-weight:bold}
+
+/* STATS */
+.stats{display:flex;justify-content:space-around;background:var(--navy);color:white;padding:50px 40px;border-radius:15px;margin:40px;text-align:center}
+.stats h2{color:var(--teal);font-size:40px;margin-bottom:5px}
+
+/* FOOTER */
+.footer{background:var(--navy);color:white;padding:50px 40px;display:grid;grid-template-columns:repeat(3,1fr);gap:40px}
+.footer h4{color:var(--teal);margin-bottom:20px;font-size:18px}
+.footer a{color:#ccc;display:block;margin:10px 0;transition:0.3s}
+.footer a:hover{color:var(--teal)}
+
+/* BUTTONS */
+.btn-form{background:var(--teal);color:white;padding:12px 25px;border-radius:8px;display:inline-block;font-weight:bold;margin-top:10px;transition:0.3s}
+.btn-form:hover{background:#00a87a}
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div>📞 +91-98765-43210 | ✉️ mcapaperwala@gmail.com | 📍 Ambala, Haryana</div>
+  <div>English | हिंदी</div>
+</div>
+
+<div class="header">
+  <h1>MCA <span>Paper Wala</span></h1>
+  <div class="nav">
+    <a href="#">Home</a><a href="#">About</a><a href="#">Papers</a><a href="#">Notes</a><a href="#">Contact</a>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSftZk3OR7SkCFFyH87PvgUUuGNHe38t-pFVLZ9799YtoOg_xA/viewform?usp=header" target="_blank" class="btn-contact">Register Now →</a>
+  </div>
+</div>
+
+<!-- SLIDER SECTION -->
+<div class="slider">
+  <div class="slides">
+    <div class="slide">
+      <img src="slide2.jpg.jpeg" alt="Tech Fest" style="width:100%; height:auto; display:block;">
+      <div class="slide-text">
+        <h2>Annual Tech Fest 2026</h2>
+        <p>Student won 1st prize in Activity</p>
+      </div>
+    </div>
+    <div class="slide">
+      <img src="slide1.jpg" alt="Event 2">
+      <div class="slide-text">
+        <h2>Himachal Pradesh Technical University </h2>
+        <p>MCA Students courses  in Coding & Web Development</p>
+      </div>
+    </div>
+    <div class="slide">
+      <img src="https://via.placeholder.com/1200x420/0f1e3d/ffffff?text=Free+Paper+Drive" alt="Event 3">
+      <div class="slide-text">
+        <h2>Free Paper Distribution Drive</h2>
+        <p>Previous Year Papers distributed to 5000+ MCA Students</p>
+      </div>
+    </div>
+    <div class="slide">
+      <img src="slide4.jpeg" alt="Event 4">
+      <div class="slide-text">
+        <h2>Guest Lecture on AI & Data Science</h2>
+        <p>Industry Experts from Google & Microsoft shared knowledge</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- NOTIFICATIONS SECTION -->
+<div class="section">
+  <h2>Latest Notifications & Events</h2>
+  <div class="notice-grid">
+    <div>
+      <div class="notice-box">
+        <span>28 JUL 2026</span> 
+        <h3>MCA Sem 1 Important Questions Released</h3>
+        <p>All 5 Subject Important Q&A PDF Available Now</p>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSftZk3OR7SkCFFyH87PvgUUuGNHe38t-pFVLZ9799YtoOg_xA/viewform?usp=header" target="_blank" class="btn-form">Download Now</a>
+      </div>
+      <div class="notice-box">
+        <span>27 JUL 2026</span> 
+        <h3>Registration Open for Study Material</h3>
+        <p>Get Complete Notes + PYQ for All Semesters</p>
+      </div>
+      <div class="notice-box">
+        <span>25 JUL 2026</span> 
+        <h3>Previous 10 Years Papers Added</h3>
+        <p>2016 to 2025 All University Papers Uploaded</p>
+      </div>
+    </div>
+    <div class="notice-sidebar">
+      <h3>🔔 Quick Access</h3>
+      <a href="#" class="btn-form" style="width:100%;text-align:center;margin-bottom:15px">1st Semester Papers</a>
+      <a href="#" class="btn-form" style="width:100%;text-align:center;margin-bottom:15px;background:var(--navy)">2nd Semester Papers</a>
+      <a href="#" class="btn-form" style="width:100%;text-align:center;margin-bottom:15px">3rd Semester Papers</a>
+      <a href="#" class="btn-form" style="width:100%;text-align:center;background:var(--navy)">4th Semester Papers</a>
+    </div>
+  </div>
+</div>
+
+<!-- QUICK ACCESS SECTION -->
+<div class="section" style="background:white">
+  <h2>Quick Access Menu</h2>
+  <div class="cards">
+    <div class="card"><h3>📚 Student Zone</h3><p>All Study Material in One Place</p></div>
+    <div class="card"><h3>📝 Notes PDF</h3><p>Chapterwise Handwritten Notes</p></div>
+    <div class="card"><h3>📅 Syllabus</h3><p>Latest Updated Syllabus</p></div>
+    <div class="card"><h3>🏆 Results</h3><p>Check Your University Result</p></div>
+    <div class="card"><h3>👥 Telegram Group</h3><p>Join 2000+ Students</p></div>
+    <div class="card"><h3>📞 Help Desk</h3><p>24x7 Student Support</p></div>
+  </div>
+</div>
+
+<!-- PROGRAMS SECTION -->
+<div class="section">
+  <h2>Most Popular MCA Subjects</h2>
+  <div class="program-grid">
+    <div class="program-card"><h3>Data Structures & Algorithms</h3><p>PYQ + Notes + Solutions</p><a href="#">View Papers →</a></div>
+    <div class="program-card"><h3>Database Management System</h3><p>PYQ + Notes + Solutions</p><a href="#">View Papers →</a></div>
+    <div class="program-card"><h3>Operating System</h3><p>PYQ + Notes + Solutions</p><a href="#">View Papers →</a></div>
+    <div class="program-card"><h3>Web Technology</h3><p>PYQ + Notes + Solutions</p><a href="#">View Papers →</a></div>
+  </div>
+</div>
+
+<!-- STATS SECTION -->
+<div class="stats">
+  <div><h2>5000+</h2>Students Helped</div>
+  <div><h2>200+</h2>Papers Available</div>
+  <div><h2>50+</h2>Colleges Covered</div>
+  <div><h2>10+</h2>Years Experience</div>
+</div>
+
+<!-- FOOTER SECTION -->
+<div class="footer">
+  <div>
+    <h4>About MCA Paper Wala</h4>
+    <p>MCA Paper Wala is a student initiative to provide free study material, previous year papers and notes for all MCA students in Himachal Pradesh.</p>
+  </div>
+  <div>
+    <h4>Useful Links</h4>
+    <a href="#">Home</a>
+    <a href="#">About Us</a>
+    <a href="#">Papers</a>
+    <a href="#">Notes</a>
+    <a href="#">Privacy Policy</a>
+  </div>
+  <div>
+    <h4>Contact Us</h4>
+    <p>Email: mcapaperwala@gmail.com</p>
+    <p>WhatsApp: +91-98765-43210</p>
+    <p>Address: Ambala, Haryana, India</p>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSftZk3OR7SkCFFyH87PvgUUuGNHe38t-pFVLZ9799YtoOg_xA/viewform?usp=header" target="_blank" class="btn-form">Submit Your Paper</a>
+  </div>
+</div>
+
+</body>
+</html>
