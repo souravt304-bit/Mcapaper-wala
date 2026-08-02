@@ -39,3 +39,10 @@ h1 { color: #667eea; }
     color: #333; 
     font-weight: 600; 
 }
+.year {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px 0 15px 0;
+  color: #333;
+}
