@@ -4,31 +4,80 @@
     <title>About - MCA Paper Wala</title>
     <link rel="stylesheet" href="style.css">
     <style>
-        .about-container { max-width: 900px; margin: 30px auto; padding: 20px; background: #fff; border-radius: 10px; }
-        .about-container h2 { background: #0f1e3d; color: white; padding: 12px; border-radius: 5px; margin-bottom: 20px; margin-top: 40px; }
-        .about-img { width: 100%; border-radius: 8px; margin-bottom: 20px; }
-        .about-text { font-size: 16px; line-height: 1.8; color: #333; text-align: justify; margin-bottom: 30px; }
-        .back-btn { display: block; width: 150px; margin: 30px auto; padding: 10px; background: #00c896; color: white; text-align: center; border-radius: 5px; text-decoration: none; }
+        body { background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%); padding: 20px; font-family: Arial, sans-serif; }
+        .about-box { 
+            max-width: 900px; 
+            margin: 20px auto; 
+            background: white; 
+            border-radius: 15px; 
+            padding: 30px; 
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+        .main-title { 
+            color: #4a90e2; 
+            font-size: 24px; 
+            text-align: center; 
+            margin-bottom: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+        .section-title { 
+            color: #0f1e3d; 
+            font-size: 20px; 
+            border-bottom: 2px solid #00c896;
+            padding-bottom: 8px;
+            margin-top: 40px;
+            margin-bottom: 15px;
+        }
+        .about-img { 
+            width: 100%; 
+            border-radius: 10px; 
+            margin-bottom: 20px; 
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+        .about-text { 
+            font-size: 16px; 
+            line-height: 1.8; 
+            color: #333; 
+            text-align: justify; 
+        }
+        .back-btn { 
+            display: inline-block; 
+            margin-top: 30px; 
+            color: #6a11cb; 
+            text-decoration: none; 
+            font-weight: bold;
+        }
+        .back-btn:hover { text-decoration: underline; }
     </style>
 </head>
 <body>
-    <div class="about-container">
+    <div class="about-box">
+        <h1 class="main-title">📚 About Himachal Pradesh Technical University</h1>
 
-        <!-- 1. OVERVIEW SECTION -->
-        <h2>Overview</h2>
-        <img src="Hptu Campus.jpg.jpeg" alt="HPTU Campus" class="about-img">
-        <div class="about-text">
-            <p>Himachal Pradesh Technical University (HPTU) was established in 2010 with the objective to provide quality technical education in the state. The University is committed to create center of excellence in education, research and training in engineering, technology, management and pharmacy.</p>
-            <p>HPTU aims to develop professionals who are competent, responsible and globally aware. The university focuses on innovation, problem-solving and societal impact through its various programs.</p>
-        </div>
+        <h2 class="section-title">Overview</h2>
+        <img src="hptu-campus.jpg" alt="HPTU Campus" class="about-img">
+        <p class="about-text">
+        Himachal Pradesh Technical University (HPTU), established by the Government of Himachal Pradesh in the year 2010 under the state legislative Act-16 of 2010, is a premier state university dedicated to excellence in technical and professional education, research, and innovation. The university offers a wide range of undergraduate and postgraduate programs across disciplines including Engineering, Management, Pharmacy, Computer Applications, and Allied Sciences. HPTU is committed to bridging the gap between academia and industry by focusing on outcome-based learning, practical exposure, skill development, and research-driven education. Nestled amidst the serene and scenic Shivalik ranges, the university campus at Hamirpur provides a vibrant and peaceful environment that fosters creativity, discipline, and holistic development among students. Hamirpur, popularly known as "Veer Bhoomi" for its proud contribution to the defence services, is one of the most literate and well-connected districts of Himachal Pradesh, making it an ideal location for higher learning.
+        </p>
 
-        <!-- 2. ABOUT CITY SECTION -->
-        <h2>About City</h2>
-        <img src="hamirpur.jpg.jpeg" alt="Hamirpur City" class="about-img">
-        <div class="about-text">
-            <p>Hamirpur, located in the heart of Himachal Pradesh, is popularly known as the "Veer Bhumi" due to its rich tradition of valor and service. Nestled among the gentle Shivalik hills and scenic landscapes, the district enjoys a moderate climate throughout the year.</p>
-            <p>Hamirpur is rapidly emerging as a prominent educational hub, home to prestigious institutions such as NIT Hamirpur, IHM Hamirpur, and Himachal Pradesh Technical University (HPTU).</p>
-        </div>
+        <h2 class="section-title">History</h2>
+        <p class="about-text">
+        Himachal Pradesh Technical University, earlier known as HimTU, was established with the vision to centralize and upgrade technical education in the state. The Himachal Pradesh Technical University Act, 2010 received the Governor's assent on 28th July 2010 and came into force on 21st August 2010. Initially, the university operated from a temporary campus and affiliated various technical and professional institutions across the state. In a major milestone, in August 2020, HPTU shifted to its newly constructed, state-of-the-art permanent campus at Daruhi village in Hamirpur District. The new campus is equipped with modern infrastructure, smart classrooms, advanced laboratories, libraries, and hostels, providing students with world-class facilities for learning and research. Since its inception, HPTU has played a crucial role in shaping the technical education landscape of Himachal Pradesh and producing industry-ready graduates.
+        </p>
+
+        <h2 class="section-title">Goals & Vision</h2>
+        <p class="about-text">
+        The primary goal of HPTU is to provide high-quality, learner-centric, and industry-relevant technical education that prepares students to meet the challenges of the modern world. The university strongly promotes a culture of research and innovation among both faculty and students, encouraging them to take up projects that solve real-world problems. HPTU aims to build strong collaborations with industries, academic institutions, research organizations, and international partners to ensure that the curriculum remains updated and students get ample opportunities for internships, placements, and exposure. Beyond academics, the university is committed to the holistic development of learners by nurturing their creativity, communication skills, leadership qualities, and ethical values. HPTU also focuses on continuous infrastructure and resource development to provide a supportive learning environment. The university believes in knowledge transfer and societal contribution by engaging in community development programs and extension activities. With a global outlook and focus on national integration, HPTU strives to produce professionals who are not only technically sound but also socially responsible citizens.
+        </p>
+
+        <h2 class="section-title">About Hamirpur City</h2>
+        <img src="hamirpur.jpg" alt="Hamirpur City" class="about-img">
+        <p class="about-text">
+        Hamirpur is a beautiful district situated in the heart of Himachal Pradesh and is famously known as "Veer Bhoomi" due to the large number of defence personnel it has produced over the years. Surrounded by gentle Shivalik hills and blessed with a moderate climate throughout the year, Hamirpur offers a perfect blend of natural beauty and urban convenience. The city has rapidly emerged as a major educational hub of North India. It is home to prestigious institutions like the National Institute of Technology (NIT) Hamirpur, Institute of Hotel Management (IHM) Hamirpur, Himachal Pradesh Technical University (HPTU), Government Medical College Hamirpur, and Himachal Pradesh Krishi Vishwavidyalaya campus. With excellent road connectivity to Shimla, Chandigarh, Dharamshala, and Delhi, Hamirpur is easily accessible. The district is also known for its high literacy rate, peaceful environment, and disciplined culture, making it one of the most preferred destinations for students pursuing technical and professional education.
+        </p>
 
         <a href="index.html" class="back-btn">← Back to Home</a>
     </div>
