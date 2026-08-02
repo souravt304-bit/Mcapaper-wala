@@ -5,46 +5,114 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>1st Semester Papers - MCA</title>
   <style>
-    body { font-family: Arial, sans-serif; padding: 20px; background: #f5f5f5; }
-    .container { max-width: 800px; margin: auto; background: white; padding: 30px; border-radius: 10px; }
-    .paper { margin: 20px 0; padding: 15px; border: 1px solid #ddd; border-radius: 8px; background: #fafafa; }
-    .paper h3 { margin: 0 0 10px 0; color: #333; }
-    .paper a { text-decoration: none; color: #10B981; font-weight: bold; }
-    .back { display: inline-block; margin-top: 20px; padding: 10px 20px; background: #10B981; color: white; border-radius: 5px; text-decoration: none; }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { 
+      font-family: 'Segoe UI', Arial, sans-serif; 
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      min-height: 100vh;
+      padding: 20px;
+    }
+    .container { 
+      max-width: 900px; 
+      margin: 30px auto; 
+      background: white; 
+      padding: 40px; 
+      border-radius: 20px; 
+      box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+    }
+    h1 { 
+      text-align: center; 
+      color: #667eea; 
+      margin-bottom: 30px; 
+      font-size: 32px;
+    }
+    .grid {
+      display: grid;
+      gap: 20px;
+    }
+    .paper { 
+      padding: 20px; 
+      border: 2px solid #e0e0e0; 
+      border-radius: 15px; 
+      background: #fff;
+      transition: all 0.3s ease;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .paper:hover {
+      border-color: #667eea;
+      transform: translateY(-5px);
+      box-shadow: 0 10px 30px rgba(102, 126, 234, 0.2);
+    }
+    .paper h3 { 
+      margin: 0; 
+      color: #333; 
+      font-size: 18px;
+    }
+    .btn { 
+      text-decoration: none; 
+      background: #10B981; 
+      color: white; 
+      padding: 10px 20px; 
+      border-radius: 8px; 
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    .btn:hover {
+      background: #059669;
+      transform: scale(1.05);
+    }
+    .back { 
+      display: inline-block; 
+      margin-top: 30px; 
+      padding: 12px 25px; 
+      background: #667eea; 
+      color: white; 
+      border-radius: 10px; 
+      text-decoration: none; 
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    .back:hover {
+      background: #5568d3;
+    }
   </style>
 </head>
 <body>
   <div class="container">
-    <h1>1st Semester Papers</h1>
+    <h1>📚 1st Semester Papers</h1>
 
-    <div class="paper">
-      <h3>1. Python Programming</h3>
-      <a href="Python dec 2024.pdf" target="_blank">📄 Download PDF</a>
-    </div>
+    <div class="grid">
+      <div class="paper">
+        <h3>1. Python Programming</h3>
+        <a href="Python dec 2024.pdf" target="_blank" class="btn">📄 Download</a>
+      </div>
 
-    <div class="paper">
-      <h3>2. Programming in C</h3>
-      <a href="Programming in c dec 2024.pdf" target="_blank">📄 Download PDF</a>
-    </div>
+      <div class="paper">
+        <h3>2. Programming in C</h3>
+        <a href="Programming in c dec 2024.pdf" target="_blank" class="btn">📄 Download</a>
+      </div>
 
-    <div class="paper">
-      <h3>3. Universal Human Value</h3>
-      <a href="Universal Human value dec2024.pdf" target="_blank">📄 Download PDF</a>
-    </div>
+      <div class="paper">
+        <h3>3. Universal Human Value</h3>
+        <a href="Universal Human value dec2024.pdf" target="_blank" class="btn">📄 Download</a>
+      </div>
 
-    <div class="paper">
-      <h3>4. Discrete Mathematics</h3>
-      <a href="Discrete Mathematics dec 2024.pdf" target="_blank">📄 Download PDF</a>
-    </div>
+      <div class="paper">
+        <h3>4. Discrete Mathematics</h3>
+        <a href="Discrete Mathematics dec 2024.pdf" target="_blank" class="btn">📄 Download</a>
+      </div>
 
-    <div class="paper">
-      <h3>5. Computer Organisation and Architecture</h3>
-      <a href="computer organisation and architecture dec2024.pdf" target="_blank">📄 Download PDF</a>
-    </div>
+      <div class="paper">
+        <h3>5. Computer Organisation and Architecture</h3>
+        <a href="computer organisation and architecture dec2024.pdf" target="_blank" class="btn">📄 Download</a>
+      </div>
 
-    <div class="paper">
-      <h3>6. Database Management System</h3>
-      <a href="Database Management System dec2024.pdf" target="_blank">📄 Download PDF</a>
+      <div class="paper">
+        <h3>6. Database Management System</h3>
+        <a href="Database Management System dec2024.pdf" target="_blank" class="btn">📄 Download</a>
+      </div>
     </div>
 
     <a href="index.html" class="back">⬅ Back to Home</a>
