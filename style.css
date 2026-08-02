@@ -48,3 +48,40 @@ h1 { color: #667eea; }
   text-transform: uppercase;
   letter-spacing: 1px;
 }
+/* Card style for DEC 2025 */
+.paper-card { 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center;
+  padding: 14px 18px; 
+  margin: 12px 0;
+  border: 1px solid #e0e0e0; 
+  border-radius: 10px; 
+  background: #ffffff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+  transition: 0.2s;
+}
+.paper-card:hover {
+  box-shadow: 0 4px 10px rgba(0,0,0,0.12);
+}
+
+.paper-card p { 
+  margin: 0; 
+  font-size: 15px; 
+  color: #333;
+}
+
+.download-btn {
+  background: #28a745;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  transition: 0.2s;
+}
+.download-btn:hover { 
+  background: #218838; 
+  transform: translateY(-1px);
+}
