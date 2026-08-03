@@ -99,18 +99,21 @@ h1 { color: #667eea; }
   gap: 12px; 
   margin-bottom: 30px; 
 }
-/* Button click / hover effect */
-.download-btn {
-  transition: all 0.15s ease; /* smooth animation */
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+/* Blue Glow Button Effect */
+.download-btn, .btn, .btn-form {
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 8px rgba(37, 99, 235, 0.2); /* halki blue shadow */
+  background: linear-gradient(135deg, #2563eb, #1d4ed8);
+  color: white;
+  border: none;
 }
 
-.download-btn:hover {
-  transform: translateY(-2px); /* upar uth jaye hover pe */
-  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+.download-btn:hover, .btn:hover, .btn-form:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(37, 99, 235, 0.4); /* hover pe blue glow */
 }
 
-.download-btn:active {
-  transform: translateY(1px) scale(0.98); /* click pe dab jaye */
-  box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+.download-btn:active, .btn:active, .btn-form:active {
+  transform: translateY(1px) scale(0.98);
+  box-shadow: 0 0 15px rgba(37, 99, 235, 0.6); /* click pe blue light */
 }
