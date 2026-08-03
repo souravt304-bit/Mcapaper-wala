@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>2nd Semester Papers</title>
+  <link rel="stylesheet" href="style.css?v=1">
+</head>
+<body>
+
+  <div class="container">
+    <h1 class="semester-title">📘 2nd Semester Question Papers</h1>
+
+    <h3 class="year">MAY 2026</h3>
+    <div class="paper-list">
+      <div class="paper-card">
+        <p><b>1. Java Programming - may 2026</b></p>
+        <a class="download-btn" href="Java Programming.pdf" target="_blank">📄 Download</a>
+      </div>
+      <div class="paper-card">
+        <p><b>2. Indian Knowledge System - may 2026</b></p>
+        <a class="download-btn" href="Indian Knowledge System.pdf" target="_blank">📄 Download</a>
+      </div>
+      <div class="paper-card">
+        <p><b>3. Entrepreneurship Startup and Management - may 2026</b></p>
+        <a class="download-btn" href="Enterpreneurship and Management System.pdf" target="_blank">📄 Download</a>
+      </div>
+      <div class="paper-card">
+        <p><b>4. Operating System - may 2026</b></p>
+        <a class="download-btn" href="Operating System.pdf" target="_blank">📄 Download</a>
+      </div>
+      <div class="paper-card">
+        <p><b>5. Information Security - may 2026</b></p>
+        <a class="download-btn" href="Information Security.pdf" target="_blank">📄 Download</a>
+      </div>
+      <div class="paper-card">
+        <p><b>6. Web Technologies - may 2026</b></p>
+        <a class="download-btn" href="Web Technologies.pdf" target="_blank">📄 Download</a>
+      </div>
+      <div class="paper-card">
+        <p><b>7. Computer Networks - may 2026</b></p>
+        <a class="download-btn" href="Computer Networks.pdf" target="_blank">📄 Download</a>
+      </div>
+      <div class="paper-card">
+        <p><b>8. Data Structure in C - may 2026</b></p>
+        <a class="download-btn" href="Data Structure using C.pdf" target="_blank">📄 Download</a>
+      </div>
+    </div>
+
+    <h3 class="year">MAY 2025</h3>
+    <div class="paper-list">
+      <div class="paper-card">
+        <p><b>1. Java Programming - may 2025</b></p>
+        <a class="download-btn" href="Java Programming may 2025.pdf" target="_blank">📄 Download</a>
+      </div>
+      <div class="paper-card">
+        <p><b>2. Indian Knowledge System - may 2025</b></p>
+        <a class="download-btn" href="Indian Knowledge System may 2025.pdf" target="_blank">📄 Download</a>
+      </div>
+      <div class="paper-card">
+        <p><b>3. Entrepreneurship Startup and Management - may 2025</b></p>
+        <a class="download-btn" href="Entrepreneurship may 2025.pdf" target="_blank">📄 Download</a>
+      </div>
+      <div class="paper-card">
+        <p><b>4. Operating System - may 2025</b></p>
+        <a class="download-btn" href="Operating System may 2025.pdf" target="_blank">📄 Download</a>
+      </div>
+      <div class="paper-card">
+        <p><b>5. Information Security - may 2025</b></p>
+        <a class="download-btn" href="Information Security may 2025.pdf" target="_blank">📄 Download</a>
+      </div>
+      <div class="paper-card">
+        <p><b>6. Web Technologies - may 2025</b></p>
+        <a class="download-btn" href="Web Technologies may 2025.pdf" target="_blank">📄 Download</a>
+      </div>
+      <div class="paper-card">
+        <p><b>7. Computer Networks - may 2025</b></p>
+        <a class="download-btn" href="Computer Networks may 2025.pdf" target="_blank">📄 Download</a>
+      </div>
+      <div class="paper-card">
+        <p><b>8. Data Structure in C - may 2025</b></p>
+        <a class="download-btn" href="Data Structure in C may 2025.pdf" target="_blank">📄 Download</a>
+      </div>
+    </div>
+
+    <a href="index.html" class="btn">⬅ Back to Home</a>
+  </div>
+
+</body>
+</html>
